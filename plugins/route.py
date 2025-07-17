@@ -1,6 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
 import re, math, logging, secrets, mimetypes, time
 from info import *
@@ -9,13 +6,13 @@ from aiohttp.http_exceptions import BadStatusLine
 from plugins.start import decode, encode 
 from datetime import datetime
 from plugins.database import record_visit, get_count
-from TechVJ.bot import multi_clients, work_loads, TechVJBot
-from TechVJ.server.exceptions import FIleNotFound, InvalidHash
-from TechVJ import StartTime, __version__
-from TechVJ.util.custom_dl import ByteStreamer
-from TechVJ.util.time_format import get_readable_time
-from TechVJ.util.render_template import render_page
-from TechVJ.util.file_properties import get_file_ids
+from Jerry.bot import multi_clients, work_loads, Raj_Website_RoBot
+from Jerry.server.exceptions import FIleNotFound, InvalidHash
+from Jerry import StartTime, __version__
+from Jerry.util.custom_dl import ByteStreamer
+from Jerry.util.time_format import get_readable_time
+from Jerry.util.render_template import render_page
+from Jerry.util.file_properties import get_file_ids
 
 routes = web.RouteTableDef()
 
@@ -25,7 +22,7 @@ html_content = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to VJ Disk</title>
+    <title>Welcome to ᴊᴇʀʀʏ ᴍᴇꜱꜱᴀɢᴇ</title>
     <style>
         body {
             margin: 0;
@@ -84,7 +81,7 @@ html_content = """
 </head>
 <body>
     <div class="container">
-        <h1>Welcome To VJ Disk!</h1>
+        <h1>Welcome To ᴊᴇʀʀʏ ᴍᴇꜱꜱᴀɢᴇ!</h1>
         <p>Your ultimate destination for streaming and sharing videos!</p>
         <p>Explore a world of entertainment at your fingertips.</p>
         <button class="button" onclick="alert('Explore Now!')">Get Started</button>
