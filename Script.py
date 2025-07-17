@@ -1,21 +1,16 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-
 class script(object):
     START_TXT = """<b>Hello {} 👋,
     
-✏️ I Am Video Player Bot, I Stream File On Website And Earn Unlimited Money 💰.
+✏️ ɪ ᴀᴍ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ɪ ꜱᴛʀᴇᴀᴍ ꜰɪʟᴇ ᴏɴ ᴡᴇʙꜱɪᴛᴇ ᴀɴᴅ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💰.
 
-Send Me Any VJDisk Link Or Any File To See My Power.✨
+ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠᴊᴅɪꜱᴋ ʟɪɴᴋ ᴏʀ ᴀɴʏ ꜰɪʟᴇ ᴛᴏ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ.✨
 
-For Uploading File In Quality Option Use Command /quality
+ꜰᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ꜰɪʟᴇ ɪɴ Qᴜᴀʟɪᴛʏ ᴏᴘᴛɪᴏɴ ᴜꜱᴇ ᴄᴏᴍᴍᴀɴᴅ /Qᴜᴀʟɪᴛʏ
 
-More Commands Are /account , /update and /withdraw</b>"""
+ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀʀᴇ /ᴀᴄᴄᴏᴜɴᴛ , /ᴜᴘᴅᴀᴛᴇ ᴀɴᴅ /ᴡɪᴛʜᴅʀᴀᴡ</b>"""
     
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>​🇧​ᴏᴛ ​🇷​ᴇ​🇸​ᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
