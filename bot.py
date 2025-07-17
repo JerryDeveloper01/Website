@@ -21,9 +21,9 @@ from datetime import date, datetime
 from aiohttp import web
 from plugins import web_server
 
-from TechVJ.bot import Raj_Website_RoBot, Raj_Website_RoBot
-from TechVJ.util.keepalive import ping_server
-from TechVJ.bot.clients import initialize_clients
+from Jeery.bot import Raj_Website_RoBot, Raj_Website_RoBot
+from Jeery.util.keepalive import ping_server
+from Jeery.bot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
@@ -35,7 +35,7 @@ loop = asyncio.get_event_loop()
 async def start():
     print('\n')
     print('Initalizing Your Bot')
-    bot_info = await TechVJBot.get_me()
+    bot_info = await Raj_Website_RoBot.get_me()
     await initialize_clients()
     for name in files:
         with open(name) as a:
@@ -47,7 +47,7 @@ async def start():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
-            print("Tech VJ Imported => " + plugin_name)
+            print("Jerry Imported => " + plugin_name)
     if ON_HEROKU:
         asyncio.create_task(ping_server())
     me = await Raj_Website_RoBot.get_me()
