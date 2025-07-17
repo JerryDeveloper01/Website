@@ -1,15 +1,15 @@
-<h1 align="center">VJ Video Player</h1>
+<h1 align="center">Website Player</h1>
 <p align="center">
-  <a href="https://github.com/VJBots/VJ-Video-Player">
-    <img src="https://i.ibb.co/Yz4y12n/photo-2025-06-16-10-05-31-7516486294654943252.jpg" alt="Cover Image" width="550">
+  <a href="https://github.com/JerryDeveloper01/Website">
+    <img src="https://files.catbox.moe/2l7eak.jpg" alt="Cover Image" width="550">
   </a>
 </p>  
   <p align="center">
    </strong></a>
     <br><b>
-    <a href="https://github.com/VJBots/VJ-Video-Player/issues">Report a Bug</a>
+    <a href="https://github.com/JerryDeveloper01/Website/issues">Report a Bug</a>
     |
-    <a href="https://github.com/VJBots/VJ-Video-Player/issues">Request Feature</a></b>
+    <a href="https://github.com/JerryDeveloper01/Website/issues">Request Feature</a></b>
   </p>
 
 
@@ -17,8 +17,8 @@
 ### **🏚️ About :**
 
 <p align="center">
-    <a href="https://github.com/VJBots/VJ-Video-Player">
-        <img src="https://i.ibb.co/ZJzJ9Hq/link-3x.png" height="100" width="100" alt="VJ Video Player Logo">
+    <a href="https://github.com/JerryDeveloper01/Website">
+        <img src="https://files.catbox.moe/2l7eak.jpg" height="100" width="100" alt="ᴊᴇʀʀʏ ᴍᴇꜱꜱᴀɢᴇ">
     </a>
 </p>
 <p align='center'>
@@ -66,7 +66,7 @@
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJBots/VJ-Video-Player&branch=main&name=VJ-Video-Player)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/JerryDeveloper01/Website&branch=main&name=ᴊᴇʀʀʏ ᴍᴇꜱꜱᴀɢᴇ)
 </details>
 
 <details><summary><b>Deploy To Render</b></summary>
@@ -120,7 +120,7 @@ Use these settings when adding a monitor:</b>
 <br>
 
 ```sh
-git clone https://github.com/VJBots/VJ-Video-Player
+git clone https://github.com/JerryDeveloper01/Website
 cd bot.py
 python3 ./venv
 . ./venv/bin/activate
@@ -249,18 +249,9 @@ PORT = 8080
 
 </details>
 
-### **🇮🇳 Series On YouTube**
-
-- ***In Simple These Are Video Tutorial Of How To Create Video Player Website For Free.***
-
-* **Episode 1 : https://youtu.be/fIQK5wnyQsM**
-* **Episode 2 : https://youtu.be/SC4uKotZjHE**
-* **Episode 3 : https://youtu.be/NkJaO4tionY**
-* **Episode 4 : Coming Soon..**
-
 ### **❤️ Thanks To :**
 
-- <b>[Tech VJ](https://youtube.com/@Tech_VJ) : Coded Every New Features.</b>
+- <b>[ᴊᴇʀʀʏ ᴍᴇꜱꜱᴀɢᴇ](https://youtube.com/@jerrymessage) : Coded Every New Features.</b>
 
 
 
