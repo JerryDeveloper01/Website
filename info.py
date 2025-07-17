@@ -2,7 +2,7 @@ import re
 from os import environ
 
 # Bot Session Name
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'Raj_Website_RoBot')
 
 # Your Telegram Account Api Id And Api Hash
 API_ID = int(environ.get('API_ID', ''))
@@ -15,7 +15,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 ADMIN = int(environ.get('ADMIN', ''))
 
 # Back Up Bot Token For Fetching Message When Floodwait Comes
-BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "")
+BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "Raj_Website_RoBot")
 
 # Log Channel, In This Channel Your All File Stored.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
