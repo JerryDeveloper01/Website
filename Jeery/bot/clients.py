@@ -1,17 +1,14 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
 import asyncio
 import logging
 from info import *
 from pyrogram import Client
-from TechVJ.util.config_parser import TokenParser
-from TechVJ.bot import multi_clients, work_loads, TechVJBot
+from Jerry.util.config_parser import TokenParser
+from Jerry.bot import multi_clients, work_loads, Raj_Website_RoBot
 
 
 async def initialize_clients():
-    multi_clients[0] = TechVJBot
+    multi_clients[0] = Raj_Website_RoBot
     work_loads[0] = 0
     all_tokens = TokenParser().parse_from_env()
     if not all_tokens:
