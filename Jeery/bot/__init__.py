@@ -1,15 +1,11 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 from pyrogram import Client, types
 from info import *
 from typing import Union, Optional, AsyncGenerator
 from aiohttp import web
 
-TechVJBackUpBot = Client(name=SESSION, api_id=API_ID, api_hash=API_HASH, bot_token=BACKUP_BOT_TOKEN, workers=150, sleep_threshold=5)
+Raj_Website_RoBot = Client(name=SESSION, api_id=API_ID, api_hash=API_HASH, bot_token=BACKUP_BOT_TOKEN, workers=150, sleep_threshold=5)
 
-class TechVJXBot(Client):
+class Raj_Website_RoBot(Client):
 
     def __init__(self):
         super().__init__(
@@ -28,28 +24,30 @@ class TechVJXBot(Client):
         limit: int,
         offset: int = 0,
     ) -> Optional[AsyncGenerator["types.Message", None]]:
-        """Iterate through a chat sequentially.
-        This convenience method does the same as repeatedly calling :meth:`~pyrogram.Client.get_messages` in a loop, thus saving
-        you from the hassle of setting up boilerplate code. It is useful for getting the whole chat messages with a
-        single call.
+        """ɪᴛᴇʀᴀᴛᴇ ᴛʜʀᴏᴜɢʜ ᴀ ᴄʜᴀᴛ ꜱᴇQᴜᴇɴᴛɪᴀʟʟʏ.
+        ᴛʜɪꜱ ᴄᴏɴᴠᴇɴɪᴇɴᴄᴇ ᴍᴇᴛʜᴏᴅ ᴅᴏᴇꜱ ᴛʜᴇ ꜱᴀᴍᴇ ᴀꜱ ʀᴇᴘᴇᴀᴛᴇᴅʟʏ ᴄᴀʟʟɪɴɢ :ᴍᴇᴛʜ:`~pyrogram.Client.get_messages` ɪɴ ᴀ ʟᴏᴏᴘ, ᴛʜᴜꜱ ꜱᴀᴠɪɴɢ
+        ʏᴏᴜ ꜰʀᴏᴍ ᴛʜᴇ ʜᴀꜱꜱʟᴇ ᴏꜰ ꜱᴇᴛᴛɪɴɢ ᴜᴘ ʙᴏɪʟᴇʀᴘʟᴀᴛᴇ ᴄᴏᴅᴇ. ɪᴛ ɪꜱ ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ᴛʜᴇ ᴡʜᴏʟᴇ ᴄʜᴀᴛ ᴍᴇꜱꜱᴀɢᴇꜱ ᴡɪᴛʜ ᴀ
+        ꜱɪɴɢʟᴇ ᴄᴀʟʟ.
         Parameters:
-            chat_id (``int`` | ``str``):
-                Unique identifier (int) or username (str) of the target chat.
-                For your personal cloud (Saved Messages) you can simply use "me" or "self".
-                For a contact that exists in your Telegram address book you can use his phone number (str).
+            ᴄʜᴀᴛ_ɪᴅ (``ɪɴᴛ`` | ``ꜱᴛʀ``):
+                ᴜɴɪQᴜᴇ ɪᴅᴇɴᴛɪꜰɪᴇʀ (ɪɴᴛ) ᴏʀ ᴜꜱᴇʀɴᴀᴍᴇ (ꜱᴛʀ) ᴏꜰ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴄʜᴀᴛ.
+                ꜰᴏʀ ʏᴏᴜʀ ᴘᴇʀꜱᴏɴᴀʟ ᴄʟᴏᴜᴅ (ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ) ʏᴏᴜ ᴄᴀɴ ꜱɪᴍᴘʟʏ ᴜꜱᴇ "ᴍᴇ" ᴏʀ "ꜱᴇʟꜰ".
+                ꜰᴏʀ ᴀ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴀᴛ ᴇxɪꜱᴛꜱ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴅᴅʀᴇꜱꜱ ʙᴏᴏᴋ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ʜɪꜱ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ (ꜱᴛʀ).
                 
-            limit (``int``):
-                Identifier of the last message to be returned.
+            ʟɪᴍɪᴛ (``ɪɴᴛ``):
+                ɪᴅᴇɴᴛɪꜰɪᴇʀ ᴏꜰ ᴛʜᴇ ʟᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ʙᴇ ʀᴇᴛᴜʀɴᴇᴅ.
+
                 
-            offset (``int``, *optional*):
-                Identifier of the first message to be returned.
-                Defaults to 0.
-        Returns:
-            ``Generator``: A generator yielding :obj:`~pyrogram.types.Message` objects.
-        Example:
-            .. code-block:: python
-                for message in app.iter_messages("pyrogram", 1, 15000):
+            ᴏꜰꜰꜱᴇᴛ (``ɪɴᴛ``, *ᴏᴘᴛɪᴏɴᴀʟ*):
+                ɪᴅᴇɴᴛɪꜰɪᴇʀ ᴏꜰ ᴛʜᴇ ꜰɪʀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ʙᴇ ʀᴇᴛᴜʀɴᴇᴅ.
+                ᴅᴇꜰᴀᴜʟᴛꜱ ᴛᴏ 0.
+        ʀᴇᴛᴜʀɴꜱ:
+            ``ɢᴇɴᴇʀᴀᴛᴏʀ``: ᴀ ɢᴇɴᴇʀᴀᴛᴏʀ ʏɪᴇʟᴅɪɴɢ :ᴏʙᴊ:`~ᴘʏʀᴏɢʀᴀᴍ.ᴛʏᴘᴇꜱ.ᴍᴇꜱꜱᴀɢᴇ` ᴏʙᴊᴇᴄᴛꜱ.
+        ᴇxᴀᴍᴘʟᴇ:
+            .. ᴄᴏᴅᴇ-ʙʟᴏᴄᴋ:: ᴘʏᴛʜᴏɴ
+                ꜰᴏʀ ᴍᴇꜱꜱᴀɢᴇ ɪɴ ᴀᴘᴘ.ɪᴛᴇʀ_ᴍᴇꜱꜱᴀɢᴇꜱ("pyrogram", 1, 15000):
                     print(message.text)
+
         """
         current = offset
         while True:
