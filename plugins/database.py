@@ -77,7 +77,7 @@ class Database2:
         user = await self.col.find_one({'id':int(id)})
         return bool(user)
 
-checkdb = Database2(MONGODB_URI, "TechVJVideoPlayerBot")
+checkdb = Database2(MONGODB_URI, "Raj_Website_RoBot")
 
 class Database:
     
@@ -126,4 +126,4 @@ class Database:
         user = await self.col.find_one({'id': int(id)})
         return user.get('c_link')
 
-db = Database(MONGODB_URI, "VJVideoPlayerBot")
+db = Database(MONGODB_URI, "Raj_Website_RoBot")
