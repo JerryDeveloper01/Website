@@ -4,11 +4,11 @@ import logging
 import aiohttp
 from info import *
 import urllib.parse
-from TechVJ.bot import TechVJBot, TechVJBackUpBot
-from TechVJ.util.human_readable import humanbytes
-from TechVJ.server.exceptions import InvalidHash
+from Jerry.bot import Raj_Website_RoBot, Raj_Website_RoBot
+from Jerry.util.human_readable import humanbytes
+from Jerry.server.exceptions import InvalidHash
 from pyrogram.errors import FloodWait
-from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size, get_file_ids
+from Jerry.util.file_properties import get_name, get_hash, get_media_file_size, get_file_ids
 from plugins.database import db
 
 async def render_page(id, user, secid, thid, src=None):
@@ -17,9 +17,9 @@ async def render_page(id, user, secid, thid, src=None):
     file_data_three = None
     if id != 0:
         try:
-            fileone = await TechVJBot.get_messages(int(LOG_CHANNEL), int(id))
+            fileone = await  Raj_Website_RoBot.get_messages(int(LOG_CHANNEL), int(id))
         except:
-            fileone = await TechVJBackUpBot.get_messages(int(LOG_CHANNEL), int(id))
+            fileone = await  Raj_Website_RoBot.get_messages(int(LOG_CHANNEL), int(id))
         file_data_one = await get_file_ids(fileone)
     
         src = urllib.parse.urljoin(
@@ -33,9 +33,9 @@ async def render_page(id, user, secid, thid, src=None):
 
     if secid != 0:
         try:
-            filetwo = await TechVJBot.get_messages(int(LOG_CHANNEL), int(secid))
+            filetwo = await  Raj_Website_RoBot.get_messages(int(LOG_CHANNEL), int(secid))
         except:
-            filetwo = await TechVJBackUpBot.get_messages(int(LOG_CHANNEL), int(secid))
+            filetwo = await  Raj_Website_RoBot.get_messages(int(LOG_CHANNEL), int(secid))
         file_data_two = await get_file_ids(filetwo)
         file_url_two = urllib.parse.urljoin(
             STREAM_URL + "dl/",
@@ -48,9 +48,9 @@ async def render_page(id, user, secid, thid, src=None):
 
     if thid != 0:
         try:
-            filethree = await TechVJBot.get_messages(int(LOG_CHANNEL), int(thid))
+            filethree = await  Raj_Website_RoBot.get_messages(int(LOG_CHANNEL), int(thid))
         except:
-            filethree = await TechVJBackUpBot.get_messages(int(LOG_CHANNEL), int(thid))
+            filethree = await  Raj_Website_RoBot.get_messages(int(LOG_CHANNEL), int(thid))
         file_data_three = await get_file_ids(filethree)
         file_url_three = urllib.parse.urljoin(
             STREAM_URL + "dl/",
@@ -72,9 +72,9 @@ async def render_page(id, user, secid, thid, src=None):
     tag = file_data.mime_type.split("/")[0].strip()
     file_size = humanbytes(file_data.file_size)
     if tag in ["document", "video", "audio"]:
-        template_file = "TechVJ/template/req.html"
+        template_file = "Jerry/template/req.html"
     else:
-        template_file = "TechVJ/template/dl.html"
+        template_file = "Jerry/template/dl.html"
         async with aiohttp.ClientSession() as s:
             async with s.get(src) as u:
                 file_size = humanbytes(int(u.headers.get("Content-Length")))
